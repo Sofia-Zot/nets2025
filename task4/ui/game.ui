@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>799</width>
+                <height>650</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Form</string>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0">
+                <layout class="QGridLayout" name="gridLayout">
+                    <item row="1" column="3" rowspan="4" colspan="2">
+                        <widget class="QListWidget" name="ratingList">
+                            <property name="focusPolicy">
+                                <enum>Qt::NoFocus</enum>
+                            </property>
+                            <property name="contextMenuPolicy">
+                                <enum>Qt::NoContextMenu</enum>
+                            </property>
+                            <property name="verticalScrollBarPolicy">
+                                <enum>Qt::ScrollBarAlwaysOff</enum>
+                            </property>
+                            <property name="horizontalScrollBarPolicy">
+                                <enum>Qt::ScrollBarAlwaysOff</enum>
+                            </property>
+                            <property name="editTriggers">
+                                <set>QAbstractItemView::NoEditTriggers</set>
+                            </property>
+                            <property name="showDropIndicator" stdset="0">
+                                <bool>false</bool>
+                            </property>
+                            <property name="sortingEnabled">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="0" rowspan="12">
+                        <widget class="QWidget" name="artWidget" native="true">
+                            <property name="sizePolicy">
+                                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                                    <horstretch>100</horstretch>
+                                    <verstretch>100</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="6" column="3" rowspan="3" colspan="2">
+                        <spacer name="verticalSpacer">
+                            <property name="orientation">
+                                <enum>Qt::Vertical</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                                <size>
+                                    <width>20</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </item>
+                    <item row="0" column="3" colspan="2">
+                        <widget class="QLabel" name="label">
+                            <property name="maximumSize">
+                                <size>
+                                    <width>16777215</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>RATING</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="9" column="3" colspan="2">
+                        <widget class="QLabel" name="masterLabel">
+                            <property name="maximumSize">
+                                <size>
+                                    <width>16777215</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>MASTER: Player</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="0" column="1" rowspan="12">
+                        <spacer name="horizontalSpacer">
+                            <property name="orientation">
+                                <enum>Qt::Horizontal</enum>
+                            </property>
+                            <property name="sizeType">
+                                <enum>QSizePolicy::Fixed</enum>
+                            </property>
+                            <property name="sizeHint" stdset="0">
+                                <size>
+                                    <width>13</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                        </spacer>
+                    </item>
+                    <item row="11" column="3" colspan="2">
+                        <widget class="QLabel" name="foodLabel">
+                            <property name="maximumSize">
+                                <size>
+                                    <width>16777215</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>FOOD: 3 + 1</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="10" column="3" colspan="2">
+                        <widget class="QLabel" name="sizeLabel">
+                            <property name="maximumSize">
+                                <size>
+                                    <width>16777215</width>
+                                    <height>20</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>SIZE: 5x5</string>
+                            </property>
+                        </widget>
+                    </item>
+                    <item row="5" column="3" colspan="2">
+                        <widget class="QPushButton" name="leaveButton">
+                            <property name="focusPolicy">
+                                <enum>Qt::NoFocus</enum>
+                            </property>
+                            <property name="contextMenuPolicy">
+                                <enum>Qt::NoContextMenu</enum>
+                            </property>
+                            <property name="text">
+                                <string>LEAVE</string>
+                            </property>
+                            <property name="autoDefault">
+                                <bool>false</bool>
+                            </property>
+                            <property name="default">
+                                <bool>false</bool>
+                            </property>
+                            <property name="flat">
+                                <bool>false</bool>
+                            </property>
+                        </widget>
+                    </item>
+                </layout>
+            </item>
+        </layout>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
